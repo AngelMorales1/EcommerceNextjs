@@ -60,7 +60,6 @@ export const getProductsByTerm = async ( term:string): Promise<IProduct[]> => {
     return updatedProducts;
 }
 
-
 export const getAllProducts = async(): Promise<IProduct[]> => {
 
     await db.connect();
